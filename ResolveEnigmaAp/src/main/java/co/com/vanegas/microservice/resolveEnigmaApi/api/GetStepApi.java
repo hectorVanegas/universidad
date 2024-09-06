@@ -5,9 +5,6 @@
  */
 package co.com.vanegas.microservice.resolveEnigmaApi.api;
 
-import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyRequest;
-import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyResponseErrors;
-import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyResponseSuccess;
 import io.swagger.annotations.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -19,6 +16,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
+
+import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyRequest;
+import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyResponseErrors;
+import co.com.vanegas.microservice.resolveEnigmaApi.model.JsonApiBodyResponseSuccess;
 
 import javax.validation.Valid;
 import javax.validation.constraints.*;

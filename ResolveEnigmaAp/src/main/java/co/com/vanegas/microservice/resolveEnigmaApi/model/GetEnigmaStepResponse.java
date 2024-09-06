@@ -1,8 +1,11 @@
 package co.com.vanegas.microservice.resolveEnigmaApi.model;
 
 import java.util.Objects;
-import co.com.vanegas.microservice.resolveEnigmaApi.model.Header;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import co.com.vanegas.microservice.resolveEnigmaApi.model.Header;
+
 import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

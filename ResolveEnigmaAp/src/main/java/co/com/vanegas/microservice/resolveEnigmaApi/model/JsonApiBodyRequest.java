@@ -1,8 +1,11 @@
 package co.com.vanegas.microservice.resolveEnigmaApi.model;
 
 import java.util.Objects;
-import co.com.vanegas.microservice.resolveEnigmaApi.model.GetEnigmaRequest;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import co.com.vanegas.microservice.resolveEnigmaApi.model.GetEnigmaRequest;
+
 import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -20,7 +23,7 @@ import javax.validation.constraints.*;
 public class JsonApiBodyRequest   {
   @JsonProperty("data")
   @Valid
-  private List<GetEnigmaRequest> data = new ArrayList<GetEnigmaRequest>();
+  private List<GetEnigmaRequest> data;
 
   public JsonApiBodyRequest data(List<GetEnigmaRequest> data) {
     this.data = data;
